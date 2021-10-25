@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Header with Navbar */
+@font-face {
+    font-family: mulish;
+    src: url('../../fonts/Mulish/static/Mulish-Regular.ttf');
+}
+@font-face {
+    font-family: gentium;
+    src: url('../../fonts/Gentium_Book_Basic/GentiumBookBasic-Italic.ttf');
+}
+@font-face {
+    font-family: libre;
+    src: url('../../fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf');
+}
+header {
+    background-color: #FAF9F9;
+    padding: 20px;
+    position: relative;
+}
+nav > ul > li > a {
+    font-family: mulish;
+    color: black !important;
+    border-left: 1px solid lightslategrey;
+    height: 0px;
+    margin-top: 25px;
+    line-height: 0px;
+    font-size: 20px;
+}
+#aactive {
+    font-family: mulish;
+    color: red !important;
+    font-weight: 800;
+}
+.logoimg {
+    width: 60px;
+    height: auto;
+}
+/* Section */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.colOfRedBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactTroyImg {
+    width: 200px;
+    height: auto;
+}
+.contactRedBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    font-family: mulish;
+    color: white;
+    background-color: #FF4343;
+    padding: 20px;
+}
+.contactRedBox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.contactlinks {
+    font-size: 20px;
+    background-color: #FF4343;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.contactlinks:hover {
+    color: #FF4343;
+    background-color: white;
+}
+/* Footer */
+footer {
+    background-color: #FAFAFA;
+}
+.footerRow1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerbtn {
+    border: 2px solid #FF4343;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #FF4343;
+    font-family: mulish;
+    margin: 40px 40px 10px 40px;
+}
+.footerbtn:hover {
+    background-color: #FF4343;
+    color: white;
+
+}
+.followus {
+    font-family: mulish;
+    font-size: 20px;
+}
+.footerminilinks1 {
+    font-size: 20px;
+    padding: 5px;
+}
+.footerminilinks2 {
+    font-size: 20px;
+    color: #FF4343;
+    margin: 10px;
+    padding: 5px 4px 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.footerminilinks2:hover {
+    color: white;
+    background-color: #FF4343;
+}
+.footerlinks {
+    font-family: mulish;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration-line: none;
+    padding: 20px 65px;
+    text-align: center;
+}

@@ -1,0 +1,545 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Header with Navbar */
+@font-face {
+    font-family: mulish;
+    src: url('./fonts/Mulish/static/Mulish-Regular.ttf');
+}
+@font-face {
+    font-family: gentium;
+    src: url('./fonts/Gentium_Book_Basic/GentiumBookBasic-Italic.ttf');
+}
+@font-face {
+    font-family: libre;
+    src: url('./fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf');
+}
+header {
+    background-color: #FAF9F9;
+    padding: 20px;
+    position: relative;
+}
+nav > ul > li > a {
+    font-family: mulish;
+    color: black !important;
+    border-left: 1px solid lightslategrey;
+    height: 0px;
+    margin-top: 25px;
+    line-height: 0px;
+    font-size: 20px;
+}
+#afirstchild {
+    font-family: mulish;
+    color: red !important;
+    font-weight: 800;
+    border-left: 1px solid #FAF9F9;
+}
+.logoimg {
+    width: 60px;
+    height: auto;
+}
+/* Section 1 */
+.section1 {
+    margin: 60px;
+    border-left: 1px solid red;
+    height: 480px;
+}
+.toryintrobox1 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 35px;
+    background-color: red;
+}
+.toryintrobox2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 55px;
+    left: -40px;
+    background-color: red;
+}
+.toryintrobox3 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    top: 35px;
+    right: -50px;
+    background-color: red;
+}
+.toryintrobox4 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    float: right;
+    top: 110px;
+    right: -100px;
+    background-color: red;
+}
+.toryintrobox5 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    top: 155px;
+    right: -67px;
+    background-color: red;
+}
+.toryintrobox6 {
+    position: relative;
+    width: 275px;
+    height: 129px;
+    padding: 30px;
+    top: -165px;
+    right: -32px;
+    background-color: rgb(231 221 221);
+    color: black;
+    font-family: libre;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+}
+.toryintrobox6p {
+    position: relative;
+    top: -110px;
+}
+.toryintrobox7 {
+    position: relative;
+    width: 550px;
+    height: 310px;
+    padding: 109px;
+    top: 70px;
+    right: 26px;
+    background-color: red;
+    color: white;
+    font-family: gentium;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+}
+.toryintrobox7btn {
+    position: relative;
+    width: 180px;
+    height: 30px;
+    padding: 20px;
+    top: -120px;
+    right: 72px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-family: mulish;
+    font-size: 14px;
+    line-height: 0px;
+    border-radius: 3px;
+}
+.toryintrobox7btn:hover {
+    background-color: white;
+    color: black;
+}
+.toryintrobox8 {
+    position: relative;
+    width: 210%;
+    height: 40px;
+    top: 194px;
+    right: 26px;
+    background-color: rgb(231 221 221);
+}
+.troyimg {
+    position: relative;
+    top: -85px;
+    left: 150px;
+    width: 350px;
+}
+.endline {
+    position: relative;
+    height: 5px;
+    border-radius: 2px;
+    background-color: red;
+}
+/* Section 2 */
+.section2 {
+    margin: 60px;
+    border-left: 1px solid white;
+    height: 480px;
+}
+.comealong {
+    position: relative;
+    top: 27px;
+    font-size: 42px;
+    text-align: center;
+}
+.comealongpara {
+    position: relative;
+    height: 450px;
+    top: 75px;
+    left: -61px;
+    text-align: left;
+    background-color: red;
+    color: white;
+    font-family: mulish;
+    font-size: 20px;
+}
+div.comealongpara > p {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    height: 400px;
+    border-left: 1px solid white;
+    padding: 53px 270px 0px 15px;
+    font-size: 24px;
+}
+.whatsappimg {
+    position: relative;
+    width: 410px;
+    height: auto;
+    float: right;
+    right: -210px;
+    top: -360px;
+}
+.readstorybtn {
+    position: relative;
+    top: 100px;
+    width: 240px;
+    height: 50px;
+    border: 1px solid red;
+    color: red;
+    padding: 9px;
+    font-family: mulish;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.readstorybtn:hover {
+    background-color: red;
+    color: white;
+}
+/* Section 3 */
+.section3 {
+    position: relative;
+    top: 200px;
+}
+.partassoc {
+    font-family: mulish;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.prowess {
+    font-family: mulish;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #AFAFAF;
+}
+.partnersimg1 {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+.partnersimg2 {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    padding-top: 50px;
+}
+.partnersimg3 {
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    padding-top: 35px;
+}
+.partnersimg4 {
+    width: 180px;
+    height: auto;
+    margin: 20px;
+    padding-top: 25px;
+}
+/* Section 4 */
+.musicplay {
+    position: relative;
+    width: 540px;
+    height: 100px;
+    background-color: #fbefef;
+    top: 250px;
+    left: 65px;
+    z-index: 1;
+}
+.playbtn {
+    position: relative;
+    top: 15px;
+    left: -33px;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border: solid red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backward {
+    position: relative;
+    font-size: 22px;
+    border: white;
+    left: 60px;
+    top: -36px;
+}
+.farward {
+    position: relative;
+    font-size: 22px;
+    border: white;
+    left: 60px;
+    top: -36px;
+}
+.playerslider {
+    position: relative;
+    top: -104px;
+    left: 161px;
+}
+.createyour {
+    position: relative;
+    top: 8px;
+    font-family: mulish;
+    font-size: 25px;
+}
+.sliderline {
+    position: relative;
+    top: -9px;
+    left: 5px;
+    width: 180px;
+    height: 2px;
+    background-color: black;
+}
+.signature {
+    position: relative;
+    top: -8px;
+    font-family: qentium;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+.timer {
+    position: relative;
+    top: -172px;
+    left: 370px;
+}
+.volumnbtn {
+    position: relative;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    top: -184px;
+    left: 376px;
+}
+.section4 {
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+    z-index: 0;
+}
+.rebackwithmike {
+    width: 1460px;
+    height: 560px;
+    background-color: #FF4343;
+    transform: rotate(6deg) translate(-65px, -65px);
+}
+.redbackpara {
+    position: relative;
+    top: 200px;
+    font-family: mulish;
+    color: white;
+    border-left: 1px solid white;
+    transform: rotate(-6deg);
+    width: 600px;
+    left: 100px;
+    padding: 20px;
+}
+.mikeimg {
+    position: relative;
+    top: -555px;
+    left: 900px;
+    width: 330px;
+    height: auto;
+    filter: contrast(1.5);
+}
+.mikebottom {
+    position: relative;
+    top: -560px;
+    left: 600px;
+    width: 750px;
+    height: 21px;
+    background-color: #EFEFEF;
+}
+.checkepisodes {
+    position: relative;
+    top: -620px;
+    left: 300px;
+    border: 1px solid red;
+    color: red;
+    width: 250px;
+    height: 60px;
+    padding: 0px 14px;
+    font-family: mulish;
+    font-size: 20px;
+}
+.checkepisodes:hover {
+    color: white;
+    background-color: red;
+}
+/* Section 5 */
+.section5 {
+    position: relative;
+    top: -325px;
+}
+.bandname {
+    width: 355px;
+    height: auto;
+}
+.bandnameredbtn {
+    width: 170px;
+    height: 40px;
+    font-family: libre;
+    font-size: 20px;
+    color: white;
+    background-color: #FF4343;
+    border: 1px solid #FF4343;
+}
+.bandnameredbtn:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid #FF4343;
+}
+.bandnamewhitebtn {
+    position: relative;
+    top: -1px;
+    width: 170px;
+    height: 40px;
+    font-family: mulish;
+    font-size: 20px;
+    color: #FF1616;
+    background-color: white;
+    border: 1px solid #FF1616;
+}
+.bandnamewhitebtn:hover {
+    color: white;
+    background-color: #FF4343;
+    border: 1px solid #FF4343;
+}
+.btns1 {
+    position: relative;
+    top: -63px;
+    left: 10px;
+}
+.btns2 {
+    position: relative;
+    top: -62px;
+    left: 10px;
+}
+.btns3 {
+    position: relative;
+    top: -50px;
+    left: 10px;
+}
+/* Section 6 */
+.section6 {
+    position: relative;
+    top: -300px;
+}
+.myfocusbox1 {
+    position: relative;
+    right: 20px;
+    background-color: #ECECEC;
+    height: 600px;
+    font-family: mulish;
+    font-size: 30px;
+    color:#FF1616;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myfocusbox2 {
+    padding: 103px 120px;
+    background-color: #FF4343;
+}
+.myfocusotherboxs1 {
+    background-color: white;
+    height: 165px;
+    margin: 63.3px 63.3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: mulish;
+    font-size: 20px;
+}
+.myfocusotherboxs2 {
+    background-color: white;
+    height: 165px;
+    margin: -93.7px 31.6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: mulish;
+    font-size: 20px;
+}
+/* Footer */
+footer {
+    background-color: #FAFAFA;
+}
+.footerRow1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerbtn {
+    border: 2px solid #FF4343;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #FF4343;
+    font-family: mulish;
+    margin: 40px 40px 10px 40px;
+}
+.footerbtn:hover {
+    background-color: #FF4343;
+    color: white;
+
+}
+.followus {
+    font-family: mulish;
+    font-size: 20px;
+}
+.footerminilinks1 {
+    font-size: 20px;
+    padding: 5px;
+}
+.footerminilinks2 {
+    font-size: 20px;
+    color: #FF4343;
+    margin: 10px;
+    padding: 5px 4px 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.footerminilinks2:hover {
+    color: white;
+    background-color: #FF4343;
+}
+.footerlinks {
+    font-family: mulish;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration-line: none;
+    padding: 20px 65px;
+    text-align: center;
+}
