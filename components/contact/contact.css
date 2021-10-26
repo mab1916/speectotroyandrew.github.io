@@ -94,13 +94,13 @@ footer {
 }
 .footerRow1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 .footerRow2 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .footerbtn {
     border: 2px solid #FF4343;
@@ -113,7 +113,6 @@ footer {
 .footerbtn:hover {
     background-color: #FF4343;
     color: white;
-
 }
 .followus {
     font-family: mulish;
@@ -127,10 +126,10 @@ footer {
     font-size: 20px;
     color: #FF4343;
     margin: 10px;
-    padding: 5px 4px 5px 10px;
+    padding: 5px 10px;
     border-radius: 50px;
     cursor: pointer;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 .footerminilinks2:hover {
     color: white;
@@ -141,7 +140,11 @@ footer {
     font-size: 20px;
     color: black;
     cursor: pointer;
-    text-decoration-line: none;
+    text-decoration: none;
     padding: 20px 65px;
-    text-align: center;
+}
+.footerlinks:hover {
+    color: black;
+    border-radius: 50px;
+    background-color: rgb(230, 225, 225);
 }

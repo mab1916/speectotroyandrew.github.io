@@ -38,19 +38,129 @@ nav > ul > li > a {
     width: 60px;
     height: auto;
 }
+/* Section 1 */
+.storyBox {
+    align-items: center;
+}
+.storyHeading {
+    font-family: mulish;
+    text-align: center;
+}
+.storyRedBox {
+    height: 300px;
+    background-color: #FF4343;
+    font-family: mulish;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.storyRedBoxText {
+    font-size: 20px;
+    border-left: 1px solid white;
+    padding: 20px;
+    margin: 40px;
+}
+.storyImgBox {
+    width: 530px;
+    height: auto;
+    margin-left: -15px;
+}
+/* Section 2 */
+.section2 {
+    background-image: url('../../images/fidele.png');
+    background-repeat: no-repeat;
+    background-size: 92% auto;
+    background-position: center;
+    height: 1075px;
+    display: flex;
+    align-items: center;
+    filter: brightness(90%) contrast(90%);
+}
+.signatureBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FF4343;
+    height: 550px;
+    color: white;
+    font-family: mulish;
+    padding: 0px 25px 0px 54px;
+}
+.signatureBoxPara {
+    text-align: left;
+    border-left: 1px solid white;
+    padding-left: 25px;
+}
+/* Section 3 */
+.sec3Text {
+    font-family: mulish;
+    text-align: center;
+}
+.sec3Text > p {
+    font-size: 24px;
+}
+.leftStyle {
+    margin-left: -12px;
+    display: flex;
+    flex-direction: column;
+}
+.rightStyle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-right: -24px;
+}
+.sec3box1 {
+    background: #FF434380;
+    width: 55px;
+    height: 60px;
+    margin: 5px 0px;
+}
+.sec3box2 {
+    background: #FF434399;
+    width: 110px;
+    height: 60px;
+    margin: 5px 0px;
+}
+.sec3box3 {
+    background: #FF4343B2;
+    width: 165px;
+    height: 60px;
+    margin: 5px 0px;
+}
+.sec3box4 {
+    background: #FF4343CC;
+    width: 220px;
+    height: 60px;
+    margin: 5px 0px;
+}
+.sec3box5 {
+    background: #FF4343E5;
+    width: 275px;
+    height: 60px;
+    margin: 5px 0px;
+}
+.sec3box6 {
+    background: #FF4343;
+    width: 330px;
+    height: 60px;
+    margin: 5px 0px;
+}
 /* Footer */
 footer {
     background-color: #FAFAFA;
 }
 .footerRow1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 .footerRow2 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .footerbtn {
     border: 2px solid #FF4343;
@@ -63,7 +173,6 @@ footer {
 .footerbtn:hover {
     background-color: #FF4343;
     color: white;
-
 }
 .followus {
     font-family: mulish;
@@ -77,10 +186,10 @@ footer {
     font-size: 20px;
     color: #FF4343;
     margin: 10px;
-    padding: 5px 4px 5px 10px;
+    padding: 5px 10px;
     border-radius: 50px;
     cursor: pointer;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 .footerminilinks2:hover {
     color: white;
@@ -91,7 +200,11 @@ footer {
     font-size: 20px;
     color: black;
     cursor: pointer;
-    text-decoration-line: none;
+    text-decoration: none;
     padding: 20px 65px;
-    text-align: center;
+}
+.footerlinks:hover {
+    color: black;
+    border-radius: 50px;
+    background-color: rgb(230, 225, 225);
 }
