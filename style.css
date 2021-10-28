@@ -43,31 +43,36 @@ nav > ul > li > a {
 .section1 {
     margin: 60px auto;
     width: 1390px;
-    border-left: 1px solid red;
     height: 500px;
+}
+.toryIntroBoxs {
+    border-left: 1.5px solid #FF0000;
+    height: 600px;
 }
 .toryintrobox1 {
     width: 20px;
     height: 20px;
+    float: left;
     background-color: #FF1616;
-    margin: 40px 0px 15px 25px;
+    margin: 50px 0px 0px 55px;
 }
 .toryintrobox2 {
     width: 35px;
     height: 35px;
+    float: left;
     background-color: #FF1616;
-    margin: 0px 0px 20px -10px;
+    margin: 90px 0px 20px -53px;
 }
 .toryintrobox3 {
-    width: 20px;
-    height: 20px;
-    float: right;
-    background-color: #FF1616;
-    margin: 55px -110px 0px 0px;
-}
-.toryintrobox4 {
     width: 35px;
     height: 35px;
+    float: right;
+    background-color: #FF1616;
+    margin: 240px -5px 0 -8px;
+}
+.toryintrobox4 {
+    width: 20px;
+    height: 20px;
     float: right;
     background-color: #FF1616;
     margin: -35px -90px 0px 0px;
@@ -102,7 +107,7 @@ nav > ul > li > a {
     background-color: #FF1616;
     color: white;
     font-family: gentium;
-    margin: auto;
+    margin: 120px 0 0 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -377,8 +382,8 @@ div.comealongpara > p {
 .checkepisodes {
     position: relative;
     top: 80px;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #FF1616;
+    color: #FF1616;
     width: 250px;
     height: 60px;
     padding: 0px 14px;
@@ -387,7 +392,7 @@ div.comealongpara > p {
 }
 .checkepisodes:hover {
     color: white;
-    background-color: red;
+    background-color: #FF1616;
 }
 /* Section 5 */
 /* .section5 {
@@ -518,13 +523,11 @@ footer {
     border: 2px solid #FF4343;
     font-family: mulish;
     margin: 35px 53px;
-    color: #FF4343;
-}
-.iconText {
-    color: black;
 }
 .footerbtn:hover {
     background-color: #FF4343;
+}
+.footerbtn:hover .footerminilinks1, .footerbtn:hover .iconText{
     color: white !important;
 }
 .followus {
@@ -532,6 +535,7 @@ footer {
     font-size: 20px;
 }
 .footerminilinks1 {
+    color: #FF4343;
     font-size: 20px;
     padding: 5px;
 }

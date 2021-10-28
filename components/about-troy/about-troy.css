@@ -66,7 +66,7 @@ nav > ul > li > a {
     margin: 40px;
 }
 .storyImgBox {
-    width: 530px;
+    width: 500px;
     height: auto;
     margin-left: -15px;
 }
@@ -167,19 +167,27 @@ footer {
     width: 200px;
     height: 70px;
     border: 2px solid #FF4343;
-    color: #FF4343;
     font-family: mulish;
 }
 .footerbtn2 {
     width: 200px;
     height: 70px;
     border: 2px solid #FF4343;
-    color: #FF4343;
     font-family: mulish;
+
 }
-.footerbtn1:hover, .footerbtn2:hover {
+.footerbtn1:hover {
     background-color: #FF4343;
-    color: white;
+}
+.footerbtn1:hover .footerminilinks1, .footerbtn1:hover .textIcon{
+    color: white !important;
+
+}
+.footerbtn2:hover {
+    background-color: #FF4343;
+}
+.footerbtn2:hover .footerminilinks1, .footerbtn2:hover .textIcon{
+    color: white !important;
 }
 .followus {
     font-family: mulish;
@@ -187,6 +195,7 @@ footer {
     margin: 15px 0 -15px 0;
 }
 .footerminilinks1 {
+    color: #FF4343;
     font-size: 20px;
     padding: 5px;
 }

@@ -40,8 +40,9 @@ nav > ul > li > a {
 }
 /* Section 1 */
 .section1 {
-    width: 100%;
+    width: 1400px;
     height: 730px;
+    margin: auto;
     background-image: url('../../images/headphones.png');
     background-repeat: no-repeat;
     background-size: 100% 730px;
@@ -68,8 +69,9 @@ nav > ul > li > a {
 /* Section 2 */
 .section2 {
     background-color: #F1F1F1;
-    width: 100%;
+    width: 1400px;
     height: 600px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,8 +159,9 @@ nav > ul > li > a {
 }
 /* Section 3 */
 .section3 {
-    width: 100%;
+    width: 1400px;
     height: 900px;
+    margin: auto;
 }
 .sec3redbox {
     display: flex;
@@ -232,19 +235,27 @@ footer {
     width: 200px;
     height: 70px;
     border: 2px solid #FF4343;
-    color: #FF4343;
     font-family: mulish;
 }
 .footerbtn2 {
     width: 200px;
     height: 70px;
     border: 2px solid #FF4343;
-    color: #FF4343;
     font-family: mulish;
+
 }
-.footerbtn1:hover, .footerbtn2:hover {
+.footerbtn1:hover {
     background-color: #FF4343;
-    color: white;
+}
+.footerbtn1:hover .footerminilinks1, .footerbtn1:hover .textIcon{
+    color: white !important;
+
+}
+.footerbtn2:hover {
+    background-color: #FF4343;
+}
+.footerbtn2:hover .footerminilinks1, .footerbtn2:hover .textIcon{
+    color: white !important;
 }
 .followus {
     font-family: mulish;
@@ -252,6 +263,7 @@ footer {
     margin: 15px 0 -15px 0;
 }
 .footerminilinks1 {
+    color: #FF4343;
     font-size: 20px;
     padding: 5px;
 }
