@@ -39,6 +39,10 @@ nav > ul > li > a {
     height: auto;
 }
 /* Section 1 */
+.section1 {
+    margin: auto;
+    width: 1400px;
+}
 .storyBox {
     align-items: center;
 }
@@ -72,6 +76,8 @@ nav > ul > li > a {
     background-repeat: no-repeat;
     background-size: 92% auto;
     background-position: center;
+    margin: auto;
+    width: 1400px;
     height: 1075px;
     display: flex;
     align-items: center;
@@ -93,6 +99,9 @@ nav > ul > li > a {
     padding-left: 25px;
 }
 /* Section 3 */
+.section3 {
+    margin-bottom: 80px;
+}
 .sec3Text {
     font-family: mulish;
     text-align: center;
@@ -112,41 +121,33 @@ nav > ul > li > a {
     align-items: flex-end;
     margin-right: -24px;
 }
-.sec3box1 {
-    background: #FF434380;
-    width: 55px;
+.sec3boxs {
     height: 60px;
-    margin: 5px 0px;
+    margin: 2.4px 0px;
+}
+.sec3box1 {
+    background-color: #FF434380;
+    width: 55px;
 }
 .sec3box2 {
-    background: #FF434399;
+    background-color: #FF434399;
     width: 110px;
-    height: 60px;
-    margin: 5px 0px;
 }
 .sec3box3 {
-    background: #FF4343B2;
+    background-color: #FF4343B2;
     width: 165px;
-    height: 60px;
-    margin: 5px 0px;
 }
 .sec3box4 {
-    background: #FF4343CC;
+    background-color: #FF4343CC;
     width: 220px;
-    height: 60px;
-    margin: 5px 0px;
 }
 .sec3box5 {
-    background: #FF4343E5;
+    background-color: #FF4343E5;
     width: 275px;
-    height: 60px;
-    margin: 5px 0px;
 }
 .sec3box6 {
-    background: #FF4343;
+    background-color: #FF4343;
     width: 330px;
-    height: 60px;
-    margin: 5px 0px;
 }
 /* Footer */
 footer {
@@ -154,29 +155,36 @@ footer {
 }
 .footerRow1 {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
-.footerRow2 {
+.follow {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footerbtn {
+.footerbtn1 {
+    width: 200px;
+    height: 70px;
     border: 2px solid #FF4343;
-    box-sizing: border-box;
-    padding: 20px;
     color: #FF4343;
     font-family: mulish;
-    margin: 40px 40px 10px 40px;
 }
-.footerbtn:hover {
+.footerbtn2 {
+    width: 200px;
+    height: 70px;
+    border: 2px solid #FF4343;
+    color: #FF4343;
+    font-family: mulish;
+}
+.footerbtn1:hover, .footerbtn2:hover {
     background-color: #FF4343;
     color: white;
 }
 .followus {
     font-family: mulish;
     font-size: 20px;
+    margin: 15px 0 -15px 0;
 }
 .footerminilinks1 {
     font-size: 20px;
@@ -201,10 +209,8 @@ footer {
     color: black;
     cursor: pointer;
     text-decoration: none;
-    padding: 20px 65px;
+    padding: 30px 0px;
 }
 .footerlinks:hover {
     color: black;
-    border-radius: 50px;
-    background-color: rgb(230, 225, 225);
 }

@@ -57,9 +57,6 @@ nav > ul > li > a {
     align-items: center;
 }
 .secsignature {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
     border-left: 1px solid white;
     font-family: mulish;
     text-align: center;
@@ -161,7 +158,7 @@ nav > ul > li > a {
 /* Section 3 */
 .section3 {
     width: 100%;
-    height: 750px;
+    height: 900px;
 }
 .sec3redbox {
     display: flex;
@@ -179,12 +176,10 @@ nav > ul > li > a {
     background-color: #FAFAFA;
     width: 100%;
     height: 600px;
-    margin: 100px 50px 0px -5px;
+    margin: 100px 50px 25px -5px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     align-content: center;
 }
 .sec3img {
@@ -197,17 +192,23 @@ nav > ul > li > a {
     height: 220px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0px -7px;
+}
+.sec3BottomRow {
+    display: flex;
+    justify-content: left;
 }
 .sec3loadbtn {
     border: 1px solid #FF4343;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
     height: 50px;
     color: #FF4343;
     font-size: 25px;
     font-family: mulish;
+    margin-left: -5px;
 }
 .sec3loadbtn:hover {
     background-color: #FF4343;
@@ -219,29 +220,36 @@ footer {
 }
 .footerRow1 {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
-.footerRow2 {
+.follow {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footerbtn {
+.footerbtn1 {
+    width: 200px;
+    height: 70px;
     border: 2px solid #FF4343;
-    box-sizing: border-box;
-    padding: 20px;
     color: #FF4343;
     font-family: mulish;
-    margin: 40px 40px 10px 40px;
 }
-.footerbtn:hover {
+.footerbtn2 {
+    width: 200px;
+    height: 70px;
+    border: 2px solid #FF4343;
+    color: #FF4343;
+    font-family: mulish;
+}
+.footerbtn1:hover, .footerbtn2:hover {
     background-color: #FF4343;
     color: white;
 }
 .followus {
     font-family: mulish;
     font-size: 20px;
+    margin: 15px 0 -15px 0;
 }
 .footerminilinks1 {
     font-size: 20px;
@@ -266,10 +274,8 @@ footer {
     color: black;
     cursor: pointer;
     text-decoration: none;
-    padding: 20px 65px;
+    padding: 30px 0px;
 }
 .footerlinks:hover {
     color: black;
-    border-radius: 50px;
-    background-color: rgb(230, 225, 225);
 }

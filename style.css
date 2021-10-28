@@ -49,34 +49,34 @@ nav > ul > li > a {
 .toryintrobox1 {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: #FF1616;
     margin: 40px 0px 15px 25px;
 }
 .toryintrobox2 {
     width: 35px;
     height: 35px;
-    background-color: red;
+    background-color: #FF1616;
     margin: 0px 0px 20px -10px;
 }
 .toryintrobox3 {
     width: 20px;
     height: 20px;
     float: right;
-    background-color: red;
+    background-color: #FF1616;
     margin: 55px -110px 0px 0px;
 }
 .toryintrobox4 {
     width: 35px;
     height: 35px;
     float: right;
-    background-color: red;
+    background-color: #FF1616;
     margin: -35px -90px 0px 0px;
 }
 .toryintrobox5 {
     width: 35px;
     height: 35px;
     float: right;
-    background-color: red;
+    background-color: #FF1616;
     margin: 110px -60px 0px;
 }
 .toryintrobox6 {
@@ -99,7 +99,7 @@ nav > ul > li > a {
 .toryintrobox7 {
     width: 550px;
     height: 320px;
-    background-color: red;
+    background-color: #FF1616;
     color: white;
     font-family: gentium;
     margin: auto;
@@ -112,7 +112,7 @@ nav > ul > li > a {
     width: 180px;
     height: 30px;
     padding: 20px;
-    background-color: red;
+    background-color: #FF1616;
     color: white;
     border: 2px solid white;
     font-family: mulish;
@@ -122,7 +122,7 @@ nav > ul > li > a {
 }
 .toryintrobox7btn:hover {
     background-color: white;
-    color: black;
+    color: #FF1616;
 }
 .toryintrobox8 {
     position: relative;
@@ -466,23 +466,43 @@ div.comealongpara > p {
 }
 .myfocusotherboxs1 {
     background-color: white;
+    width: 283px;
     height: 165px;
-    margin: 63.3px 63.3px;
+    margin: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 20px;
     font-family: mulish;
-    font-size: 20px;
+    font-size: 32px;
+}
+.myfocusotherbox1 {
+    margin: 25px 0px 0px 125px;
+}
+.myfocusotherbox2 {
+    margin: 25px 0px 0px -10px;
+}
+.myfocusotherbox3 {
+    margin-left: 125px;
+}
+.myfocusotherbox4 {
+    margin-left: 34px;
+}
+.myfocusotherbox5 {
+    margin-left: -56px;
 }
 .myfocusotherboxs2 {
     background-color: white;
+    width: 185px;
     height: 165px;
-    margin: -93.7px 31.6px;
+    margin: 5px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     font-family: mulish;
-    font-size: 20px;
+    font-size: 32px;
 }
 /* Footer */
 footer {
@@ -497,7 +517,7 @@ footer {
     height: 60px;
     border: 2px solid #FF4343;
     font-family: mulish;
-    margin: 35px 31px;
+    margin: 35px 53px;
     color: #FF4343;
 }
 .iconText {
@@ -505,7 +525,7 @@ footer {
 }
 .footerbtn:hover {
     background-color: #FF4343;
-    color: white;
+    color: white !important;
 }
 .followus {
     font-family: mulish;
@@ -519,7 +539,7 @@ footer {
     font-size: 20px;
     color: #FF4343;
     margin: 10px;
-    padding: 5px 10px;
+    padding: 5px 5px 5px 10px;
     border-radius: 50px;
     cursor: pointer;
     text-decoration: none;
