@@ -2,6 +2,30 @@
     padding: 0px;
     margin: 0px;
 }
+.bigDiv {
+    position: relative;
+    z-index: 3;
+    width: 1396px;
+    height: 3860px;
+    margin: 50px auto;
+    /* border-top: 2px solid #FF1616; */
+    /* border-bottom: 2px solid #FF1616; */
+}
+.bigDiv::before, .bigDiv::after {
+    content: '';
+    background-color: #FF1616;
+    width: 1px;
+    position: absolute;
+    top: -52px;
+    left: 50px;
+    bottom: -52px;
+    z-index: 1;
+}
+.bigDiv::after {
+    left: auto;
+    right: 50px;
+    z-index: 1;
+}
 /* Header with Navbar */
 @font-face {
     font-family: mulish;
@@ -16,9 +40,25 @@
     src: url('./fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf');
 }
 header {
-    background-color: #FAF9F9;
-    padding: 20px;
-    position: relative;
+    display: flex;
+   background-color: #FAF9F9;
+   padding: 52px 75px 52px 0px;
+   position: relative;
+   width: 1570px;
+   top: -54px;
+   left: -52px;
+   margin-bottom: -95px;
+   z-index: 0;
+}
+header:before,
+header:after {
+    content: '';
+    border-top: 2px solid #FF1616;
+    margin: 0 -700px 0 0;
+    flex: 1;
+}
+header:after {
+   margin: 0 0 0 -630px;
 }
 nav > ul > li > a {
     font-family: mulish;
@@ -38,6 +78,7 @@ nav > ul > li > a {
 .logoimg {
     width: 60px;
     height: auto;
+    margin: 0 0 0 40px;
 }
 /* Section 1 */
 .section1 {
@@ -48,6 +89,7 @@ nav > ul > li > a {
 .toryIntroBoxs {
     border-left: 1.5px solid #FF0000;
     height: 600px;
+    margin-left: 35px;
 }
 .toryintrobox1 {
     width: 20px;
@@ -132,8 +174,9 @@ nav > ul > li > a {
 .toryintrobox8 {
     position: relative;
     top: -85px;
+    width: 2000px;
     height: 40px;
-    background-color: rgb(231 221 221);
+    background-color: #F1F1F1;
 }
 .troyimg {
     position: relative;
@@ -169,14 +212,15 @@ nav > ul > li > a {
     font-family: mulish;
     font-size: 20px;
     margin: -1px;
+    z-index: 1;
 }
 div.comealongpara > p {
     position: relative;
     top: 25px;
-    left: 40px;
+    left: 35px;
     height: 400px;
     border-left: 1px solid white;
-    padding: 53px 270px 0px 15px;
+    padding: 53px 270px 0px 25px;
     font-size: 24px;
 }
 .whatsappimg {
@@ -373,7 +417,7 @@ div.comealongpara > p {
 .mikebottom {
     position: relative;
     top: -100px;
-    left: 100px;
+    left: 48px;
     width: 750px;
     height: 21px;
     float: right;
@@ -381,7 +425,9 @@ div.comealongpara > p {
 }
 .checkepisodes {
     position: relative;
-    top: 80px;
+    top: 85px;
+    margin: -3px 100px;
+    float: right;
     border: 1px solid #FF1616;
     color: #FF1616;
     width: 250px;
@@ -454,10 +500,10 @@ div.comealongpara > p {
     top: -300px;
 } */
 .myfocusbox1 {
-    position: relative;
-    right: 20px;
     background-color: #ECECEC;
+    width: 415px;
     height: 600px;
+    margin-left: -10px;
     font-family: mulish;
     font-size: 30px;
     color:#FF1616;
@@ -511,7 +557,21 @@ div.comealongpara > p {
 }
 /* Footer */
 footer {
+    display: flex;
+    align-items: flex-end;
     background-color: #FAFAFA;
+    z-index: 0;
+    width: 1420px;
+}
+footer:before,
+footer:after {
+    content: '';
+    border-top: 2px solid #FF1616;
+    margin: 0 -650px 0 0;
+    flex: 1;
+}
+footer:after {
+   margin: 0 0 0 -670px;
 }
 .footerRow1 {
     text-align: center;
