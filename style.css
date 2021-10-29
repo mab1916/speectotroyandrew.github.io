@@ -53,7 +53,7 @@ header {
 header:before,
 header:after {
     content: '';
-    border-top: 2px solid #FF1616;
+    border-top: 1px solid #FF1616;
     margin: 0 -700px 0 0;
     flex: 1;
 }
@@ -557,16 +557,18 @@ div.comealongpara > p {
 }
 /* Footer */
 footer {
+    position: relative;
+    left: -51px;
     display: flex;
     align-items: flex-end;
     background-color: #FAFAFA;
     z-index: 0;
-    width: 1420px;
+    width: 1500px;
 }
 footer:before,
 footer:after {
     content: '';
-    border-top: 2px solid #FF1616;
+    border-top: 1px solid #FF1616;
     margin: 0 -650px 0 0;
     flex: 1;
 }
